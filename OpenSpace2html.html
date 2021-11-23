@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<html id="myHtml">
+<html>
 <head>
     <link rel="stylesheet" href="OpenSpace2.css">
     <title>Open Space</title>
 </head>
+<body>
+    <div class="box-1">
+        <img src="assets/images/space.png">
+        <img src="assets/images/mars.png">
+        <img class="rocket" src="assets/images/rocket.png">
+        <div class="control-panel">
+            <textarea name="textarea" rows="1" cols="20">Enter Password</textarea>
+            <button type="button" id="click-me">OK</button>
 
-<body id="myHotBody">
-<div id="mainDiv">
-<div class="divBase" id="space"> 
-<div class="divBase" id="planet-area"> 
-</div>
-</div>
-</div>
+            <input type="checkbox" id="check1" disabled>
+            <input type="checkbox" id="check2">
+            <input type="checkbox" id="check3">
+            <input type="checkbox" id="check4">
+            <input type="checkbox" id="check5">
+            <input type="checkbox" id="check6">
+
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange1">
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange2">
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange3">
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange4">
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange5">
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange6">
+            
+            <button type="button" id="launch-button">Launch</button>
+        </div>
+    </div>
 </body>
 </html>
