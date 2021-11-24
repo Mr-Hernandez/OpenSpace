@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="OpenSpace2.css">
+    <script type = "text/javascript" src="function.js"></script>  
+    <title>Open Space</title>
+</head>
+<body>
+    <div class="box-1">
+        <img src="assets/images/space.png" class="spacey">
+        <img src="assets/images/mars.png">
+        <img class="rocket" src="assets/images/rocket.png">
+        <div class="control-panel">
+            <textarea name="textarea" rows="1" cols="20" id="text-area1">Enter Password</textarea>
+            <button type="button" id="click-me">OK</button>
+
+            <input type="checkbox" id="check1" disabled>
+            <input type="checkbox" id="check2" disabled>
+            <input type="checkbox" id="check3" disabled>
+            <input type="checkbox" id="check4" disabled>
+            <input type="checkbox" id="check5" disabled>
+            <input type="checkbox" id="check6" disabled>
+
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange1" disabled>
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange2" disabled>
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange3" disabled>
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange4" disabled>
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange5" disabled>
+            <input type="range" min="1" max="50" value="25" class="slider1" id="myRange6" disabled>
+            
+            <button type="button" id="launch-button" disabled>Launch</button>
+        </div>
+    </div>
+    <audio src="assets/audio/countdown.mp3" id="countdown"></audio>
+    <audio src="assets/audio/rocket.wav" id="r-sound"></audio>
+    <script src="OpenSpace2.js"></script>
+</body>
+</html>
